@@ -1,0 +1,22 @@
+[
+  {
+    "file": "0.jpg",
+    "type": "people_at_event",
+    "person": "Brad Pitt",
+    "context": "Venice Film Festival",
+    "title": "Brad Pitt at Venice Film Festival",
+    "video": "0.mp4",
+    "text": "Brad Pitt at Venice Film Festival",
+    "source": "https://www.youtube.com/watch?v=StoEJUgtQA0"
+  },
+  {
+    "file": "1.jpg",
+    "type": "people_at_event",
+    "person": "Brad Pitt",
+    "context": "Changeling premiere",
+    "title": "Brad Pitt at Changeling premiere",
+    "video": "1.mp4",
+    "text": "Brad Pitt at Changeling premiere",
+    "source": "https://archive.org/details/Stupidfamouspeople-BradPittAndAngelinaJolieLeavingTheChangelingPremiereIn964"
+  }
+]

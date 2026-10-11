@@ -1,0 +1,102 @@
+[
+  {
+    "file": "0.jpg",
+    "type": "people_at_location",
+    "person": "Joe Biden",
+    "context": "Oval Office",
+    "title": "Joe Biden at Oval Office",
+    "video": "0.mp4",
+    "text": "Joe Biden at Oval Office",
+    "source": "https://www.youtube.com/watch?v=EhL0Z51OiBY"
+  },
+  {
+    "file": "1.jpg",
+    "type": "people_at_location",
+    "person": "Joe Biden",
+    "context": "Oval Office",
+    "title": "Joe Biden at Oval Office",
+    "video": "1.mp4",
+    "text": "Joe Biden at Oval Office",
+    "source": "https://www.youtube.com/watch?v=Tqqc-UFcSlU"
+  },
+  {
+    "file": "2.jpg",
+    "type": "people_at_event",
+    "person": "Joe Biden",
+    "context": "White House Correspondents' Dinner",
+    "title": "Joe Biden at White House Correspondents' Dinner",
+    "video": "2.mp4",
+    "text": "Joe Biden at White House Correspondents' Dinner",
+    "source": "https://www.youtube.com/watch?v=Cbk7elR9I_I"
+  },
+  {
+    "file": "3.jpg",
+    "type": "people_at_location",
+    "person": "Joe Biden",
+    "context": "Buffalo",
+    "title": "Joe Biden at Buffalo",
+    "video": "3.mp4",
+    "text": "Joe Biden at Buffalo",
+    "source": "https://www.youtube.com/watch?v=UBwePA2hRho"
+  },
+  {
+    "file": "4.jpg",
+    "type": "people_at_event",
+    "person": "Joe Biden",
+    "context": "State of the Union",
+    "title": "Joe Biden at State of the Union",
+    "video": "4.mp4",
+    "text": "Joe Biden at State of the Union",
+    "source": "https://www.youtube.com/watch?v=peWlRgDqUz4"
+  },
+  {
+    "file": "6.jpg",
+    "type": "people_at_event",
+    "person": "Joe Biden",
+    "context": "campaign kickoff",
+    "title": "Joe Biden at campaign kickoff",
+    "video": "6.mp4",
+    "text": "Joe Biden at campaign kickoff",
+    "source": "https://www.youtube.com/watch?v=xn_8UQ1W6_c"
+  },
+  {
+    "file": "7.jpg",
+    "type": "people_at_event",
+    "person": "Joe Biden",
+    "context": "White House Correspondents' Dinner",
+    "title": "Joe Biden at White House Correspondents' Dinner",
+    "video": "7.mp4",
+    "text": "Joe Biden at White House Correspondents' Dinner",
+    "source": "https://www.youtube.com/watch?v=CdzGHBUEMY8"
+  },
+  {
+    "file": "8.jpg",
+    "type": "people_at_event",
+    "person": "Joe Biden",
+    "context": "White House Correspondents' Dinner",
+    "title": "Joe Biden at White House Correspondents' Dinner",
+    "video": "8.mp4",
+    "text": "Joe Biden at White House Correspondents' Dinner",
+    "source": "https://www.youtube.com/watch?v=bDZ1H4ABmiU"
+  },
+  {
+    "file": "9.jpg",
+    "type": "people_at_location",
+    "person": "Joe Biden",
+    "context": "Oval Office",
+    "title": "Joe Biden at Oval Office",
+    "video": "9.mp4",
+    "text": "Joe Biden at Oval Office",
+    "source": "https://www.youtube.com/watch?v=Wu-8s396n54"
+  },
+  {
+    "file": "9.jpg",
+    "type": "people_at_event",
+    "person": "Joe Biden",
+    "context": "Presidential Inauguration",
+    "title": "Joe Biden at Presidential Inauguration",
+    "video": "9.mp4",
+    "text": "Joe Biden at Presidential Inauguration",
+    "source": "https://archive.org/details/youtube-UnfM3Or3HPU"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "0.jpg",
+    "type": "people_at_event",
+    "person": "Ben Affleck",
+    "context": "Oscars",
+    "title": "Ben Affleck at Oscars",
+    "video": "0.mp4",
+    "text": "Ben Affleck at Oscars",
+    "source": "https://archive.org/details/Affleck"
+  },
+  {
+    "file": "1.jpg",
+    "type": "people_at_event",
+    "person": "Ben Affleck",
+    "context": "Oscars",
+    "title": "Ben Affleck at Oscars",
+    "video": "1.mp4",
+    "text": "Ben Affleck at Oscars",
+    "source": "https://www.youtube.com/watch?v=D_8Ef7oRckc"
+  }
+]

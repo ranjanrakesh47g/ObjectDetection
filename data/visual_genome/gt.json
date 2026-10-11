@@ -1,0 +1,422 @@
+[
+  {
+    "file": "1.jpg",
+    "text": "cars are parked along the edge of the street",
+    "boxes": [
+      {
+        "bbox": [
+          295,
+          285,
+          502,
+          242
+        ]
+      }
+    ]
+  },
+  {
+    "file": "2.jpg",
+    "text": "leafy trees on the opposite side of the street",
+    "boxes": [
+      {
+        "bbox": [
+          0,
+          145,
+          210,
+          221
+        ]
+      }
+    ]
+  },
+  {
+    "file": "3.jpg",
+    "text": "there is a woman infront of the computer on the right",
+    "boxes": [
+      {
+        "bbox": [
+          443,
+          88,
+          193,
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "file": "4.jpg",
+    "text": "Curtains with a design depicting boats in the water and clouds in the sky",
+    "boxes": [
+      {
+        "bbox": [
+          349,
+          2,
+          288,
+          314
+        ]
+      }
+    ]
+  },
+  {
+    "file": "5.jpg",
+    "text": "a white computer keyboard sitting on the computer desk",
+    "boxes": [
+      {
+        "bbox": [
+          234,
+          398,
+          128,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "file": "6.jpg",
+    "text": "there are three wooden chairs in the picture",
+    "boxes": [
+      {
+        "bbox": [
+          16,
+          42,
+          480,
+          449
+        ]
+      }
+    ]
+  },
+  {
+    "file": "7.jpg",
+    "text": "small purple notebook next to the black binder",
+    "boxes": [
+      {
+        "bbox": [
+          701,
+          514,
+          82,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "file": "8.jpg",
+    "text": "there is a desktop computer on the right of the photo",
+    "boxes": [
+      {
+        "bbox": [
+          186,
+          221,
+          338,
+          294
+        ]
+      }
+    ]
+  },
+  {
+    "file": "9.jpg",
+    "text": "ancient computer monitor next to water bottle",
+    "boxes": [
+      {
+        "bbox": [
+          65,
+          209,
+          241,
+          133
+        ]
+      }
+    ]
+  },
+  {
+    "file": "10.jpg",
+    "text": "blue jacket with red sleeves hanging on the back of a chair",
+    "boxes": [
+      {
+        "bbox": [
+          532,
+          349,
+          149,
+          228
+        ]
+      }
+    ]
+  },
+  {
+    "file": "11.jpg",
+    "text": "the keyboard is in front of the monitor",
+    "boxes": [
+      {
+        "bbox": [
+          70,
+          180,
+          169,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "file": "12.jpg",
+    "text": "a silver screen-saver pattern on the black monitor",
+    "boxes": [
+      {
+        "bbox": [
+          129,
+          115,
+          250,
+          201
+        ]
+      }
+    ]
+  },
+  {
+    "file": "13.jpg",
+    "text": "there is a desktop computer on the desk",
+    "boxes": [
+      {
+        "bbox": [
+          48,
+          163,
+          476,
+          331
+        ]
+      }
+    ]
+  },
+  {
+    "file": "14.jpg",
+    "text": "a white computer mouse sitting on a mouse pad with wrist rest",
+    "boxes": [
+      {
+        "bbox": [
+          494,
+          364,
+          174,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "file": "15.jpg",
+    "text": "a red and white sticker on the screen",
+    "boxes": [
+      {
+        "bbox": [
+          96,
+          45,
+          48,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "file": "16.jpg",
+    "text": "A young boy walking along the sidewalk is wearing white sneakers",
+    "boxes": [
+      {
+        "bbox": [
+          364,
+          235,
+          62,
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "file": "17.jpg",
+    "text": "white computer desk with a computer and a laptop on it.",
+    "boxes": [
+      {
+        "bbox": [
+          132,
+          322,
+          378,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "file": "18.jpg",
+    "text": "A mug on the table beside the plastic bottle.",
+    "boxes": [
+      {
+        "bbox": [
+          79,
+          357,
+          75,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "file": "19.jpg",
+    "text": "bar with several pieces of blue tape on a wall",
+    "boxes": [
+      {
+        "bbox": [
+          245,
+          227,
+          413,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "file": "20.jpg",
+    "text": "man sitting at desk in front of computer",
+    "boxes": [
+      {
+        "bbox": [
+          69,
+          197,
+          328,
+          395
+        ]
+      }
+    ]
+  },
+  {
+    "file": "21.jpg",
+    "text": "the woman is pointing at a picture in the album",
+    "boxes": [
+      {
+        "bbox": [
+          54,
+          34,
+          108,
+          169
+        ]
+      }
+    ]
+  },
+  {
+    "file": "22.jpg",
+    "text": "there is amultistory building in the photo",
+    "boxes": [
+      {
+        "bbox": [
+          268,
+          51,
+          457,
+          306
+        ]
+      }
+    ]
+  },
+  {
+    "file": "23.jpg",
+    "text": "there is a group of girls beside the black car",
+    "boxes": [
+      {
+        "bbox": [
+          105,
+          178,
+          148,
+          209
+        ]
+      }
+    ]
+  },
+  {
+    "file": "24.jpg",
+    "text": "there is a maroon car parked on the right side of the photo",
+    "boxes": [
+      {
+        "bbox": [
+          402,
+          230,
+          324,
+          211
+        ]
+      }
+    ]
+  },
+  {
+    "file": "25.jpg",
+    "text": "Two women walking behind a man pushing a baby carriage",
+    "boxes": [
+      {
+        "bbox": [
+          60,
+          246,
+          320,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "file": "26.jpg",
+    "text": "there are several buildings in the street",
+    "boxes": [
+      {
+        "bbox": [
+          22,
+          112,
+          753,
+          286
+        ]
+      }
+    ]
+  },
+  {
+    "file": "27.jpg",
+    "text": "portion of the black coving strip running along the base of the wall",
+    "boxes": [
+      {
+        "bbox": [
+          132,
+          451,
+          62,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "file": "28.jpg",
+    "text": "a group of framed pictures on a white wall",
+    "boxes": [
+      {
+        "bbox": [
+          4,
+          1,
+          506,
+          290
+        ]
+      }
+    ]
+  },
+  {
+    "file": "29.jpg",
+    "text": "clear blue sky above the horizon in daytime",
+    "boxes": [
+      {
+        "bbox": [
+          2,
+          1,
+          797,
+          186
+        ]
+      }
+    ]
+  },
+  {
+    "file": "30.jpg",
+    "text": "there is a brown table in the photo",
+    "boxes": [
+      {
+        "bbox": [
+          13,
+          75,
+          772,
+          520
+        ]
+      }
+    ]
+  }
+]

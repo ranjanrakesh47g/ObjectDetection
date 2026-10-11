@@ -1,0 +1,102 @@
+[
+  {
+    "file": "0.jpg",
+    "type": "people_at_event",
+    "person": "Barack Obama",
+    "context": "White House Correspondents' Dinner",
+    "title": "Barack Obama at White House Correspondents' Dinner",
+    "video": "0.mp4",
+    "text": "Barack Obama at White House Correspondents' Dinner",
+    "source": "https://www.youtube.com/watch?v=6IoVSbjmTZs"
+  },
+  {
+    "file": "1.jpg",
+    "type": "people_at_event",
+    "person": "Barack Obama",
+    "context": "DNC Convention",
+    "title": "Barack Obama at DNC Convention",
+    "video": "1.mp4",
+    "text": "Barack Obama at DNC Convention",
+    "source": "https://www.youtube.com/watch?v=eWynt87PaJ0"
+  },
+  {
+    "file": "2.jpg",
+    "type": "people_at_location",
+    "person": "Barack Obama",
+    "context": "Antalya",
+    "title": "Barack Obama at Antalya",
+    "video": "2.mp4",
+    "text": "Barack Obama at Antalya",
+    "source": "https://www.youtube.com/watch?v=OUvJdPhvdYI"
+  },
+  {
+    "file": "4.jpg",
+    "type": "people_at_location",
+    "person": "Barack Obama",
+    "context": "Cairo",
+    "title": "Barack Obama at Cairo",
+    "video": "4.mp4",
+    "text": "Barack Obama at Cairo",
+    "source": "https://www.youtube.com/watch?v=B_889oBKkNU"
+  },
+  {
+    "file": "5.jpg",
+    "type": "people_at_event",
+    "person": "Barack Obama",
+    "context": "Democratic National Convention",
+    "title": "Barack Obama at Democratic National Convention",
+    "video": "5.mp4",
+    "text": "Barack Obama at Democratic National Convention",
+    "source": "https://www.youtube.com/watch?v=kKQV9bEcV28"
+  },
+  {
+    "file": "6.jpg",
+    "type": "people_at_location",
+    "person": "Barack Obama",
+    "context": "United Nations",
+    "title": "Barack Obama at United Nations",
+    "video": "6.mp4",
+    "text": "Barack Obama at United Nations",
+    "source": "https://www.youtube.com/watch?v=vdoi2aTf9W8"
+  },
+  {
+    "file": "8.jpg",
+    "type": "people_at_location",
+    "person": "Barack Obama",
+    "context": "UN General Assembly",
+    "title": "Barack Obama at UN General Assembly",
+    "video": "8.mp4",
+    "text": "Barack Obama at UN General Assembly",
+    "source": "https://www.youtube.com/watch?v=AqEsahwoxb8"
+  },
+  {
+    "file": "7.jpg",
+    "type": "people_at_event",
+    "person": "Barack Obama",
+    "context": "White House Correspondents' Dinner",
+    "title": "Barack Obama at White House Correspondents' Dinner",
+    "video": "7.mp4",
+    "text": "Barack Obama at White House Correspondents' Dinner",
+    "source": "https://archive.org/details/youtube-IJPAc-5FT3A"
+  },
+  {
+    "file": "8.jpg",
+    "type": "people_at_location",
+    "person": "Barack Obama",
+    "context": "Hiroshima",
+    "title": "Barack Obama at Hiroshima",
+    "video": "8.mp4",
+    "text": "Barack Obama at Hiroshima",
+    "source": "https://archive.org/details/twitter-736129894657097728"
+  },
+  {
+    "file": "9.jpg",
+    "type": "people_at_event",
+    "person": "Barack Obama",
+    "context": "White House Correspondents' Dinner",
+    "title": "Barack Obama at White House Correspondents' Dinner",
+    "video": "9.mp4",
+    "text": "Barack Obama at White House Correspondents' Dinner",
+    "source": "https://www.youtube.com/watch?v=ON2XWvyePH8"
+  }
+]
