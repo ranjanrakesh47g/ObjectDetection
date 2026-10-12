@@ -204,7 +204,7 @@
     "text": "Flower vase on window sill with father and son in background",
     "source": "https://media.gettyimages.com/id/1555776260/photo/flower-vase-on-window-sill-with-father-and-son-in-background.jpg?s=612x612&w=0&k=20&c=g54pjoTfh5X6obWVgakvuQjairX9p9-6QFG5EYNKUFo=",
     "relation": "object_with_background",
-    "foreground": "Flower_vase",
+    "foreground": "flower_vase",
     "background": "people"
   },
   {

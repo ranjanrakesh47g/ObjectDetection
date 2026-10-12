@@ -149,6 +149,9 @@ activemq-data/
 # SageMath parsed files
 *.sage.py
 
+# Downloaded model weights
+models/
+
 # Environments
 .env
 .envrc
