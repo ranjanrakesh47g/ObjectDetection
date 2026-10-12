@@ -1,0 +1,306 @@
+[
+  {
+    "file": "A_black_coffee_mug_on_an_office_desk_with_a_blurred_laptop_in_the_background.jpg",
+    "text": "A black coffee mug on an office desk with a blurred laptop in the background.",
+    "source": "https://images.pexels.com/photos/8424478/pexels-photo-8424478.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "blurred_laptop"
+  },
+  {
+    "file": "a_camera_is_attached_to_a_tripod_with_a_mountain_in_the_background.jpg",
+    "text": "a camera is attached to a tripod with a mountain in the background",
+    "source": "https://images.unsplash.com/photo-1646581763359-45b942ebcaff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "mountain"
+  },
+  {
+    "file": "a_camera_on_a_tripod_with_a_mountain_in_the_background.jpg",
+    "text": "a camera on a tripod with a mountain in the background",
+    "source": "https://images.unsplash.com/photo-1646581761323-aaf0821697a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "mountain"
+  },
+  {
+    "file": "A_close_up_shot_of_a_fountain_pen_with_an_ink_bottle_highlighted_by_warm_bokeh_lights_in_the_background.jpg",
+    "text": "A close-up shot of a fountain pen with an ink bottle, highlighted by warm bokeh lights in the background.",
+    "source": "https://images.pexels.com/photos/4862762/pexels-photo-4862762.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "pen",
+    "background": "blurred_lights"
+  },
+  {
+    "file": "A_hand_holds_a_mushroom_themed_cup_indoors_focusing_on_coziness_with_a_blurred_screen_in_the_background.jpg",
+    "text": "A hand holds a mushroom-themed cup indoors, focusing on coziness with a blurred screen in the background.",
+    "source": "https://images.pexels.com/photos/28077781/pexels-photo-28077781.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "cup",
+    "background": "blurred_laptop"
+  },
+  {
+    "file": "A_hiking_backpack_resting_on_rocky_terrain_with_Tatra_Mountains_in_the_background.jpg",
+    "text": "A hiking backpack resting on rocky terrain with Tatra Mountains in the background.",
+    "source": "https://images.pexels.com/photos/30829443/pexels-photo-30829443.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "backpack",
+    "background": "mountain"
+  },
+  {
+    "file": "A_kettle_on_the_stove_with_a_teenage_boy_reading_a_book_in_the_background.jpg",
+    "text": "A kettle on the stove with a teenage boy reading a book in the background",
+    "source": "https://media.gettyimages.com/id/2167583787/photo/a-kettle-on-the-stove-with-a-teenage-boy-reading-a-book-in-the-background.jpg?s=612x612&w=0&k=20&c=rrl9Xev13yXA9pRLsXwoEvLv9sBsEopu78e9-aBxVGw=",
+    "relation": "object_with_background",
+    "foreground": "kettle",
+    "background": "man"
+  },
+  {
+    "file": "A_Mobile_phone_charging_on_a_marble_table_with_a_pen_wallet_and_note_book_in_the_background.jpg",
+    "text": "A Mobile phone charging on a marble table with a pen, wallet, and note book in the background",
+    "source": "https://media.gettyimages.com/id/1212767593/photo/a-mobile-phone-charging-on-a-marble-table-with-a-pen-wallet-and-note-book-in-the-background.jpg?s=612x612&w=0&k=20&c=_Y0_b1u61gFtZ8PAlYQF77laOlOMHWAgZUKln_ES3SA=",
+    "relation": "object_with_background",
+    "foreground": "phone",
+    "background": "pen"
+  },
+  {
+    "file": "A_person_holding_up_a_pair_of_sunglasses_with_the_ocean_in_the_background.jpg",
+    "text": "A person holding up a pair of sunglasses with the ocean in the background",
+    "source": "https://images.unsplash.com/photo-1722675935089-49ae1d8d3249?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "relation": "object_with_background",
+    "foreground": "sunglasses",
+    "background": "ocean"
+  },
+  {
+    "file": "A_red_mug_on_a_coaster_with_a_blurred_person_in_the_background_indoors.jpg",
+    "text": "A red mug on a coaster with a blurred person in the background, indoors.",
+    "source": "https://images.pexels.com/photos/8091186/pexels-photo-8091186.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "woman"
+  },
+  {
+    "file": "A_smartphone_capturing_a_scenic_view_of_a_pebble_beach_with_blurred_hills_in_the_background.jpg",
+    "text": "A smartphone capturing a scenic view of a pebble beach with blurred hills in the background.",
+    "source": "https://images.pexels.com/photos/29851899/pexels-photo-29851899.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "phone",
+    "background": "mountain"
+  },
+  {
+    "file": "A_striped_mug_in_focus_with_a_warm_artistic_bokeh_effect_in_the_background.jpg",
+    "text": "A striped mug in focus with a warm, artistic bokeh effect in the background.",
+    "source": "https://images.pexels.com/photos/36770700/pexels-photo-36770700.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "blurred_lights"
+  },
+  {
+    "file": "A_vintage_camera_on_a_table_with_a_blurred_woman_in_the_background_holding_her_head.jpg",
+    "text": "A vintage camera on a table with a blurred woman in the background holding her head.",
+    "source": "https://images.pexels.com/photos/20570205/pexels-photo-20570205.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "woman"
+  },
+  {
+    "file": "Artistic_shot_of_a_vintage_camera_with_blurred_digital_images_in_the_background.jpg",
+    "text": "Artistic shot of a vintage camera with blurred digital images in the background.",
+    "source": "https://images.pexels.com/photos/17838524/pexels-photo-17838524.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "blurred_laptop"
+  },
+  {
+    "file": "Bright_yellow_mug_placed_on_concrete_with_blurred_urban_architecture_in_the_background.jpg",
+    "text": "Bright yellow mug placed on concrete with blurred urban architecture in the background.",
+    "source": "https://images.pexels.com/photos/5091239/pexels-photo-5091239.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "urban_architecture"
+  },
+  {
+    "file": "Camera_on_log_with_snowy_mountains_in_background.jpg",
+    "text": "Camera on log with snowy mountains in background",
+    "source": "https://images.unsplash.com/photo-1777764568012-7e5dae868635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "mountain"
+  },
+  {
+    "file": "Camera_on_tripod_capturing_a_cityscape_at_night_with_blurred_lights_in_the_background.jpg",
+    "text": "Camera on tripod capturing a cityscape at night with blurred lights in the background.",
+    "source": "https://images.pexels.com/photos/14761031/pexels-photo-14761031.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "blurred_lights"
+  },
+  {
+    "file": "Close_up_of_a_bar_of_green_soap_with_a_blank_white_label_resting_on_a_gray_surface_with_a_white_towel_in_the_background.jpg",
+    "text": "Close-up of a bar of green soap with a blank white label, resting on a gray surface with a white towel in the background",
+    "source": "https://media.gettyimages.com/id/2269005600/photo/close-up-of-a-bar-of-green-soap-with-a-blank-white-label-resting-on-a-gray-surface-with-a.jpg?s=612x612&w=0&k=20&c=c2LqiN7qo-FmE9gX8ueWFvUnX3NWqxj_JD4zsPt9aYA=",
+    "relation": "object_with_background",
+    "foreground": "soap",
+    "background": "towel"
+  },
+  {
+    "file": "Close_up_of_a_decorative_Santa_mug_with_a_Christmas_tree_bokeh_in_the_background.jpg",
+    "text": "Close-up of a decorative Santa mug with a Christmas tree bokeh in the background.",
+    "source": "https://images.pexels.com/photos/19208308/pexels-photo-19208308.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "blurred_lights"
+  },
+  {
+    "file": "Close_up_of_a_DSLR_camera_on_a_desk_in_a_modern_office_setting_with_people_in_the_background.jpg",
+    "text": "Close-up of a DSLR camera on a desk in a modern office setting with people in the background.",
+    "source": "https://images.pexels.com/photos/33714891/pexels-photo-33714891.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "people"
+  },
+  {
+    "file": "Close_up_of_a_professional_DSLR_camera_with_people_blurred_in_the_background.jpg",
+    "text": "Close-up of a professional DSLR camera with people blurred in the background.",
+    "source": "https://images.pexels.com/photos/33714887/pexels-photo-33714887.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "people"
+  },
+  {
+    "file": "Close_up_of_a_vintage_camera_on_a_café_table_with_a_dessert_in_the_background.jpg",
+    "text": "Close-up of a vintage camera on a café table with a dessert in the background.",
+    "source": "https://images.pexels.com/photos/28572886/pexels-photo-28572886.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "camera",
+    "background": "dessert"
+  },
+  {
+    "file": "Close_up_of_alarm_clock_with_man_sleeping_in_the_background_Cape_Town_South_Africa.jpg",
+    "text": "Close up of alarm clock with man sleeping in the background, Cape Town, South Africa.",
+    "source": "https://media.gettyimages.com/id/173859681/photo/close-up-of-alarm-clock-with-man-sleeping-in-the-background-cape-town-south-africa.jpg?s=612x612&w=0&k=20&c=YZNp13oPh-Ym4ZoXPjO33aLYG2RXbMGlmYRfE68nxPU=",
+    "relation": "object_with_background",
+    "foreground": "alarm_clock",
+    "background": "man"
+  },
+  {
+    "file": "Close_up_of_water_bottle_in_locker_room_with_an_athlete_in_the_background.jpg",
+    "text": "Close up of water bottle in locker room with an athlete in the background.",
+    "source": "https://media.gettyimages.com/id/908961052/photo/close-up-of-water-bottle-in-locker-room-with-an-athlete-in-the-background.jpg?s=612x612&w=0&k=20&c=on3Y7btNAGDn6G693cc1zB4HOsk5TIbDIKm_QWyG0v8=",
+    "relation": "object_with_background",
+    "foreground": "water_bottle",
+    "background": "man"
+  },
+  {
+    "file": "Elegant_black_perfume_bottle_placed_on_a_textured_surface_with_vibrant_flowers_in_the_background_during_daylight.jpg",
+    "text": "Elegant black perfume bottle placed on a textured surface with vibrant flowers in the background during daylight",
+    "source": "https://media.gettyimages.com/id/2224329372/photo/elegant-black-perfume-bottle-placed-on-a-textured-surface-with-vibrant-flowers-in-the.jpg?s=612x612&w=0&k=20&c=9SzzhZB2_yqokqaEKnhe3kcrWjMWbZ8rN2C__BbIRlo=",
+    "relation": "object_with_background",
+    "foreground": "perfume_bottle",
+    "background": "flowers"
+  },
+  {
+    "file": "Flower_vase_on_window_sill_with_father_and_son_in_background.jpg",
+    "text": "Flower vase on window sill with father and son in background",
+    "source": "https://media.gettyimages.com/id/1555776260/photo/flower-vase-on-window-sill-with-father-and-son-in-background.jpg?s=612x612&w=0&k=20&c=g54pjoTfh5X6obWVgakvuQjairX9p9-6QFG5EYNKUFo=",
+    "relation": "object_with_background",
+    "foreground": "Flower_vase",
+    "background": "people"
+  },
+  {
+    "file": "Golden_sunglasses_rest_on_a_table_by_the_beach_with_a_serene_sunset_and_palm_trees_in_the_background.jpg",
+    "text": "Golden sunglasses rest on a table by the beach with a serene sunset and palm trees in the background.",
+    "source": "https://images.pexels.com/photos/30254417/pexels-photo-30254417.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "sunglasses",
+    "background": "ocean"
+  },
+  {
+    "file": "Hand_holding_a_coffee_cup_at_night_with_blurred_city_lights_in_the_background.jpg",
+    "text": "Hand holding a coffee cup at night with blurred city lights in the background",
+    "source": "https://media.gettyimages.com/id/2260665687/photo/hand-holding-a-coffee-cup-at-night-with-blurred-city-lights-in-the-background.jpg?s=612x612&w=0&k=20&c=MOWdSysVnHNEn2qUdQuFadq652qh8kl3hy3DtgTKNMk=",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "blurred_lights"
+  },
+  {
+    "file": "Laptop_on_wooden_table_in_a_loft_flat_with_man_at_the_window_in_background.jpg",
+    "text": "Laptop on wooden table in a loft flat with man at the window in background",
+    "source": "https://media.gettyimages.com/id/1255083241/photo/laptop-on-wooden-table-in-a-loft-flat-with-man-at-the-window-in-background.jpg?s=612x612&w=0&k=20&c=fU9qjxYfD_g--lEFi6USrqYioHI_x2ecXC8wUoDZgDo=",
+    "relation": "object_with_background",
+    "foreground": "laptop",
+    "background": "man"
+  },
+  {
+    "file": "Notebook_and_coffee_cup_in_modern_informal_office_with_man_and_woman_in_background.jpg",
+    "text": "Notebook and coffee cup in modern informal office with man and woman in background",
+    "source": "https://media.gettyimages.com/id/735897865/photo/notebook-and-coffee-cup-in-modern-informal-office-with-man-and-woman-in-background.jpg?s=612x612&w=0&k=20&c=r4OhUjxk4o8dNTIOGAqHtSZ6xPJa8K05KqD8RVQbtto=",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "people"
+  },
+  {
+    "file": "Open_book_with_bookshelf_in_the_background.jpg",
+    "text": "Open book with bookshelf in the background",
+    "source": "https://media.gettyimages.com/id/578372645/photo/open-book-with-bookshelf-in-the-background.jpg?s=612x612&w=0&k=20&c=mg8LF-zmtqyqAufue-FQRPBOBvAjFJQdQkKGjgiNW8w=",
+    "relation": "object_with_background",
+    "foreground": "book",
+    "background": "bookshelf"
+  },
+  {
+    "file": "Red_lentils_in_glass_jar_with_cooking_oil_bottle_and_woman_in_background_at_store.jpg",
+    "text": "Red lentils in glass jar with cooking oil bottle and woman in background at store",
+    "source": "https://media.gettyimages.com/id/1701406241/photo/red-lentils-in-glass-jar-with-cooking-oil-bottle-and-woman-in-background-at-store.jpg?s=612x612&w=0&k=20&c=LWSHnyFqImLFJS7eoFhjDe_ZXAGEVO-MV5jCNJsMxkU=",
+    "relation": "object_with_background",
+    "foreground": "jar",
+    "background": "woman"
+  },
+  {
+    "file": "Red_mug_with_bokeh_Christmas_lights_in_the_background_evoking_holiday_warmth_and_coziness.jpg",
+    "text": "Red mug with bokeh Christmas lights in the background, evoking holiday warmth and coziness.",
+    "source": "https://images.pexels.com/photos/5933795/pexels-photo-5933795.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "coffee_mug",
+    "background": "blurred_lights"
+  },
+  {
+    "file": "Shaker_bottle_with_woman_working_out_in_the_background.jpg",
+    "text": "Shaker bottle with woman working out in the background",
+    "source": "https://media.gettyimages.com/id/597069037/photo/shaker-bottle-with-woman-working-out-in-the-background.jpg?s=612x612&w=0&k=20&c=rnhC0IjsetoKm3d9Gpwq-9YFK3WZWFp6FZyc6jCEIU4=",
+    "relation": "object_with_background",
+    "foreground": "water_bottle",
+    "background": "woman"
+  },
+  {
+    "file": "Stylish_golden_glasses_with_colorful_bokeh_of_Dhaka_nightlife_in_the_background.jpg",
+    "text": "Stylish golden glasses with colorful bokeh of Dhaka nightlife in the background.",
+    "source": "https://images.pexels.com/photos/392625/pexels-photo-392625.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "sunglasses",
+    "background": "blurred_lights"
+  },
+  {
+    "file": "Stylish_handbag_with_a_horse_in_the_background.jpg",
+    "text": "Stylish handbag with a horse in the background",
+    "source": "https://images.unsplash.com/photo-1743324690280-62c0699f46d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    "relation": "object_with_background",
+    "foreground": "handbag",
+    "background": "horse"
+  },
+  {
+    "file": "Tortoiseshell_sunglasses_resting_on_a_sandy_beach_with_ocean_waves_in_the_background.jpg",
+    "text": "Tortoiseshell sunglasses resting on a sandy beach with ocean waves in the background.",
+    "source": "https://images.pexels.com/photos/26575039/pexels-photo-26575039.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "relation": "object_with_background",
+    "foreground": "sunglasses",
+    "background": "ocean"
+  },
+  {
+    "file": "White_lamp_sits_in_foreground_adorned_with_silver_snowflake_ornament_and_unrecognizable_woman_in_yellow_in_background_adjusting_decorations_on_rwindow.jpg",
+    "text": "White lamp sits in foreground, adorned with silver snowflake ornament, and unrecognizable woman in yellow in background adjusting decorations on rwindow",
+    "source": "https://media.gettyimages.com/id/1859388123/photo/white-lamp-sits-in-foreground-adorned-with-silver-snowflake-ornament-and-unrecognizable-woman.jpg?s=612x612&w=0&k=20&c=Kiq4dgHiwlzWPJzfA7GWy3cpMkBrhl6GhqI7Tcc0omM=",
+    "relation": "object_with_background",
+    "foreground": "lamp",
+    "background": "man"
+  }
+]
