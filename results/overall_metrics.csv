@@ -1,0 +1,8 @@
+model_name,acc,micro_f1,macro_f1,latency (s),cost ($/1k images)
+qwen3-vl-2b_4bit_local,0.805,0.826,0.765,0.736,0.0
+qwen3-vl-4b_colab,0.855,0.863,0.775,2.522,0.0
+qwen3-vl-8b_4bit_colab,0.83,0.846,0.771,15.871,0.0
+qwen3.8-27b_openrouter,0.899,0.899,0.846,4.35,0.16
+qwen3-vl-30b-a3b_openrouter,0.868,0.868,0.795,6.426,0.279
+cloud-vision_google,0.629,0.709,0.479,1.024,8.75
+gemini-3.1-flash-lite_google,0.937,0.937,0.891,7.483,0.485
