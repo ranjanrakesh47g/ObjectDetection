@@ -1,5 +1,5 @@
 model_name,source,acc,micro_f1,macro_f1,latency (s),cost ($/1k images)
-qwen3-vl-2b_4bit_local,open-source,0.805,0.826,0.765,0.736,0.0
+qwen3-vl-2b_4bit_local,open-source,0.811,0.83,0.768,1.451,0.0
 qwen3-vl-4b_colab,open-source,0.855,0.863,0.775,2.522,0.0
 qwen3-vl-8b_4bit_colab,open-source,0.83,0.846,0.771,15.871,0.0
 qwen3.8-27b_openrouter,commercial,0.899,0.899,0.846,4.35,0.16
