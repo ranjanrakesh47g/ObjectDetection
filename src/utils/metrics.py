@@ -11,7 +11,6 @@ from src.utils.base import DATA, KEYS, RESULTS
 COST = {
     "qwen3.8-27b_openrouter": 0.00016,
     "qwen3-vl-30b-a3b_openrouter": 0.000279,
-    "cloud-vision_google": 0.00875,
     "gemini-3.1-flash-lite_google": 0.000485,
 }
 FIELDS = (("fg", "foreground"), ("bg", "background"), ("rel", "relation"))

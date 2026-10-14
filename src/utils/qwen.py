@@ -75,7 +75,14 @@ class Qwen(Detector):
         return self.processor.batch_decode(trimmed, skip_special_tokens=True)[0]
 
     def _json(self, path: Path, vocab: dict[str, list[str]]) -> dict[str, str]:
-        raw = self._generate(path, prompt(vocab), ["}"], 160)
+        text = (
+            'Reply with only {"foreground":"...","background":"...","relation":"..."}. '
+            "One label each, no commas inside values. When two labels both fit, choose the more specific one.\n"
+            f"foreground: {', '.join(vocab['foreground'])}\n"
+            f"background: {', '.join(vocab['background'])}\n"
+            f"relation: {', '.join(vocab['relation'])}"
+        )
+        raw = self._generate(path, text, ["}"], 160)
         if raw.count('"') % 2:
             raw += '"'
         if not raw.rstrip().endswith("}"):

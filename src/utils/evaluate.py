@@ -13,12 +13,10 @@ from src.utils.gemini import Gemini
 from src.utils.metrics import SPLITS, save_predictions, vocab_for
 from src.utils.openrouter import OpenRouter
 from src.utils.qwen import Qwen
-from src.utils.vision import CloudVision
 
 FACTORIES: dict[str, Callable[[], Detector]] = {
     "qwen3.8-27b_openrouter": lambda: OpenRouter("qwen/qwen3.8-27b", "qwen3.8-27b_openrouter"),
     "qwen3-vl-30b-a3b_openrouter": lambda: OpenRouter("qwen/qwen3-vl-30b-a3b-instruct", "qwen3-vl-30b-a3b_openrouter"),
-    "cloud-vision_google": CloudVision,
     "gemini-3.1-flash-lite_google": Gemini,
     "qwen3-vl-2b_4bit_local": lambda: Qwen("Qwen/Qwen3-VL-2B-Instruct", "qwen3-vl-2b_4bit_local", bits=4),
     "qwen3-vl-4b_colab": lambda: Qwen("Qwen/Qwen3-VL-4B-Instruct", "qwen3-vl-4b_colab", tools=True),
