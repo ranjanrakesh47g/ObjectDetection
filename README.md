@@ -1,6 +1,6 @@
 # Object Detection
 
-This project compares vision-language models on a closed-vocabulary labeling task. Each image or video clip receives one foreground, one background, and one relation, chosen from the labels present in the ground truth for that domain.
+This project compares vision-language models on a closed-vocabulary detection task. Each image or video clip receives one foreground, one background, and one relation, chosen from the labels present in the ground truth for that domain.
 
 ## Data
 
@@ -73,8 +73,8 @@ Overall scores on the 53 stills:
 - Each clip is reduced to a few keyframes before labeling.
 - FFmpeg marks a shot boundary when the scene score exceeds 0.3. A shot is kept only when its duration is at least 0.5 seconds, else merged.
 - Within each shot, frames are sampled at about five per second. YuNet selects the frame with the largest face. A shot with no face keeps its midpoint.
-- Each keyframe is labeled from the closed vocabulary for that clip.
-- The clip label is the most frequent combination of foreground, background, and relation. A tie keeps the frame with the higher face score.
+- Each keyframe is passed through the model to get foreground, background, relation predictions.
+- The clip final prediction is the most frequent combination of foreground, background, and relation among the keyframes. A tie keeps the combination from the frame with the higher face score.
 - Scores for the news clips are stored in `results/video_predictions.csv`, `results/video_metrics.csv`, and `results/video_overall_metrics.csv`.
 
 
@@ -106,29 +106,30 @@ The local service listens on `127.0.0.1:8000` and labels an upload with Qwen3.8-
 
 1. Install FFmpeg. The package includes `ffprobe`.
 
-```bash
-sudo apt install ffmpeg
-```
+   ```bash
+   sudo apt install ffmpeg
+   ```
 
-1. Download the YuNet weights. OpenCV does not ship this file.
+2. Download the YuNet weights. OpenCV does not ship this file.
 
-```bash
-mkdir -p models
-curl -L -o models/face_detection_yunet_2023mar.onnx https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx
-```
+   ```bash
+   mkdir -p models
+   curl -L -o models/face_detection_yunet_2023mar.onnx https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx
+   ```
 
-1. Create a Python 3.12 environment and install the dependencies in `requirements.txt`.
+3. Create a Python 3.12 environment and install the dependencies in `requirements.txt`.
 
-```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+   ```bash
+   python3.12 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
 
-1. Set `OPENROUTER_API_KEY` and `GEMINI_API_KEY` in the environment for the commercial models.
-2. Start the local service. It labels an uploaded image or video with Qwen3.8-27B.
+4. Set `OPENROUTER_API_KEY` and `GEMINI_API_KEY` in the environment for the commercial models.
 
-```bash
-python -m src.api.main
-```
+5. Start the local service. It labels an uploaded image or video with Qwen3.8-27B.
+
+   ```bash
+   python -m src.api.main
+   ```
 
