@@ -64,13 +64,13 @@ Overall scores on the 53 stills:
 
 ### Commercial
 
-- Qwen3.8-27B (Openrouter) is the recommended one among the commercial options, since it has least latency, least pricing among them and accuracy well above 91 %.
+- Qwen3.8-27B (Openrouter) is the recommended commercial option. It has the lowest latency and the lowest price among them, with accuracy above 91%.
 
 
 
 ## Handling Video Clips
 
-- Each clip is reduced to a few keyframes before labeling.
+- Each clip is reduced to a few keyframes before inference.
 - FFmpeg marks a shot boundary when the scene score exceeds 0.3. A shot is kept only when its duration is at least 0.5 seconds, else merged.
 - Within each shot, frames are sampled at about five per second. YuNet selects the frame with the largest face. A shot with no face keeps its midpoint.
 - Each keyframe is passed through the model to get foreground, background, relation predictions.
@@ -105,31 +105,23 @@ The local service listens on `127.0.0.1:8000` and labels an upload with Qwen3.8-
 ## Local setup
 
 1. Install FFmpeg. The package includes `ffprobe`.
-
-   ```bash
+  ```bash
    sudo apt install ffmpeg
-   ```
-
+  ```
 2. Download the YuNet weights. OpenCV does not ship this file.
-
-   ```bash
+  ```bash
    mkdir -p models
    curl -L -o models/face_detection_yunet_2023mar.onnx https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx
-   ```
-
+  ```
 3. Create a Python 3.12 environment and install the dependencies in `requirements.txt`.
-
-   ```bash
+  ```bash
    python3.12 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
-   ```
-
+  ```
 4. Set `OPENROUTER_API_KEY` and `GEMINI_API_KEY` in the environment for the commercial models.
-
 5. Start the local service. It labels an uploaded image or video with Qwen3.8-27B.
-
-   ```bash
+  ```bash
    python -m src.api.main
-   ```
+  ```
 
