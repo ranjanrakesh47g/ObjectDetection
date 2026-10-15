@@ -1,4 +1,4 @@
 model_name,source,acc,micro_f1,macro_f1,latency (s),cost ($/1k keyframes)
-qwen3-vl-2b_4bit_local,open-source,0.576,0.576,0.524,1.409,0.0
-qwen3.8-27b_openrouter,commercial,0.848,0.848,0.793,3.66,0.16
+qwen3-vl-2b_4bit_local,"open-weight, local",0.576,0.576,0.524,1.409,0.0
+qwen3.8-27b_openrouter,"open-weight, commercial",0.848,0.848,0.793,3.66,0.16
 gemini-3.1-flash-lite_google,commercial,0.758,0.758,0.618,4.176,0.485

@@ -74,9 +74,13 @@ def _metrics_row(model: str, frame: pd.DataFrame) -> dict:
 
 
 def _source(name: str) -> str:
-    if "openrouter" in name or "google" in name:
+    if "google" in name:
         return "commercial"
-    return "open-source"
+    if "openrouter" in name:
+        return "open-weight, commercial"
+    if "colab" in name:
+        return "open-weight, colab"
+    return "open-weight, local"
 
 
 def save_metrics(model: str, results: Path = RESULTS) -> None:
