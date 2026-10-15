@@ -4,6 +4,7 @@ from src.utils.evaluate import evaluate, run, run_all
 from src.utils.gemini import Gemini
 from src.utils.openrouter import OpenRouter
 from src.utils.qwen import Qwen
+from src.utils.video import run_videos
 
 __all__ = [
     "Gemini",
@@ -12,4 +13,5 @@ __all__ = [
     "evaluate",
     "run",
     "run_all",
+    "run_videos",
 ]

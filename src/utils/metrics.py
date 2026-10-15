@@ -38,9 +38,9 @@ def _ground_truth() -> pd.DataFrame:
         for row in json.loads((DATA / split / "gt_images.json").read_text()):
             rows.append({
                 "image_filepath": f"data/{split}/images/{row['file']}",
-                "gt_foreground": row["foreground"],
-                "gt_background": row["background"],
-                "gt_relation": row["relation"],
+                "gt_fg": row["foreground"],
+                "gt_bg": row["background"],
+                "gt_rel": row["relation"],
             })
     return pd.DataFrame(rows).set_index("image_filepath")
 
@@ -52,8 +52,8 @@ def _metrics_row(model: str, frame: pd.DataFrame) -> dict:
     for split, prefix in SPLITS:
         part = frame[frame.image_filepath.str.startswith(f"data/{split}/")]
         correct, golds, preds = 0, [], []
-        for short, key in FIELDS:
-            gold, pred = part[f"gt_{key}"], part[f"{model}_{key}"].fillna("")
+        for short, _key in FIELDS:
+            gold, pred = part[f"gt_{short}"], part[f"{model}_{short}"].fillna("")
             correct += int(gold.eq(pred).sum())
             row[f"{prefix}_{short}_acc"] = round(accuracy_score(gold, pred), 3)
             row[f"{prefix}_{short}_micro_f1"] = _f1(gold, pred, "micro")
@@ -103,7 +103,9 @@ def save_metrics(model: str, results: Path = RESULTS) -> None:
 def save_predictions(model: str, frame: pd.DataFrame, results: Path = RESULTS) -> None:
     """Merge one model's labels into predictions.csv, then refresh metrics."""
     results.mkdir(exist_ok=True)
-    frame = frame.rename(columns={"image": "image_filepath"}).set_index("image_filepath")
+    frame = frame.rename(columns={
+        "image": "image_filepath", "foreground": "fg", "background": "bg", "relation": "rel",
+    }).set_index("image_filepath")
     frame.columns = [f"{model}_{column}" for column in frame.columns]
     path = results / "predictions.csv"
     parts = [_ground_truth(), frame]

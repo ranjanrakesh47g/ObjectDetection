@@ -1,0 +1,4 @@
+model_name,fg_acc,fg_micro_f1,fg_macro_f1,bg_acc,bg_micro_f1,bg_macro_f1,rel_acc,rel_micro_f1,rel_macro_f1,acc,micro_f1,macro_f1,latency (s)
+qwen3-vl-2b_4bit_local,0.636,0.636,0.571,0.545,0.545,0.495,0.545,0.545,0.545,0.576,0.576,0.524,1.409
+qwen3.8-27b_openrouter,0.818,0.818,0.883,0.727,0.727,0.707,1.0,1.0,1.0,0.848,0.848,0.793,3.66
+gemini-3.1-flash-lite_google,0.818,0.818,0.676,0.636,0.636,0.55,0.818,0.818,0.817,0.758,0.758,0.618,4.176
