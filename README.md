@@ -94,7 +94,7 @@ Overall scores on the 53 stills:
 The local service listens on `127.0.0.1:8000` and labels an upload with Qwen3.8-27B.
 
 
-| Method | Path            | Purpose                                                                                      |
+| Method | Path            | Remarks                                                                                      |
 | ------ | --------------- | -------------------------------------------------------------------------------------------- |
 | GET    | `/health_check` | Returns `{"status": "ok"}`                                                                   |
 | POST   | `/detect`       | Accepts an image or video file and returns the foreground, background, relation, and latency |
